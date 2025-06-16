@@ -59,6 +59,7 @@ function Form({onAddItem}) {
   return (
     <form className="add-form" onSubmit={handleSubmit} >
       <h3 style={{ fontSize : '1.5rem'}}>Hari ini belanja apa kita?</h3>
+      <h1>TEST</h1>
       <div>
         <select value={quantity} onChange={(e) => setQuantity(Number(e.target.value))}>
           {quantityNum}
